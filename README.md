@@ -1,16 +1,42 @@
 # Avito-parser
-Простой парсинг Авито
+Простой парсинг Авито.
+*Всё, что помечено, как код, вводится в cmd/powershell/терминале*
+___
+## Установка Python pip и зависимостей для Windows
+### Установка Python и pip
+1. [Загрузить](https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe)
+2. Установить, следуя подсказкам инсталлера
+3. Проверить установку, в случае успешной установки, мы получим в ответ версии установленных Python и Pip
+```
+[in] python --version
+[out] Python 3.8.2
+[in] pip --version
+[out] pip 20.0.2
+```
+## Установка зависимостей
+1. `pip install jupyter`
+2. `pip install notebook`
+3. `pip install pandas`
+4. `pip install beautifulsoup4`
+5. `pip install matplotlib`
+___
 
+## Установка Python pip и зависимостей для Linux (Debian/Ubuntu)
+### Установка Python и pip
+1. `sudo apt update && sudo apt upgrade -y && sudo apt install python3 -y`
 
-Подготавливаем всё:
+### Установка зависимостей
+1. `pip3 install jupyter && pip3 install notebook && pip3 install pandas && pip3 install beautifulsoup4 && pip3 install matplotlib`
 
-> pip3 install jupyter
+Либо отдельно:
+- `pip3 install jupyter`
+- `pip3 install notebook`
+- `pip3 install pandas`
+- `pip3 install beautifulsoup4`
+- `pip3 install matplotlib`
 
-> pip3 install notebook
-
-> pip3 install pandas
-
-> pip3 install beautifulsoup4
-
+___
+## Использование
 Запускаем Юпитер:
-> jupyter notebook
+-  В cmd/powershell/терминале - `jupyter notebook`
+- Через обозреватель на открывшейся странице в браузере открываем наш файл с расширением `.ipynb`
