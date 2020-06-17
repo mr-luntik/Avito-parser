@@ -1,6 +1,5 @@
 # Avito-parser
 Простой парсинг Авито.
-*Всё, что помечено, как код, вводится в cmd/powershell/терминале*
 ___
 ## Установка Python pip и зависимостей для Windows
 ### Установка Python и pip
@@ -13,6 +12,7 @@ ___
 [in] pip --version
 [out] pip 20.0.2
 ```
+
 ## Установка зависимостей
 1. `pip install jupyter`
 2. `pip install notebook`
