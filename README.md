@@ -14,11 +14,12 @@ ___
 ```
 
 ## Установка зависимостей
-1. `pip install jupyterlab`
-2. `pip install notebook`
-3. `pip install pandas`
-4. `pip install beautifulsoup4`
-5. `pip install matplotlib`
+1. `pip install pylint`
+2. `pip install jupyterlab`
+3. `pip install notebook`
+4. `pip install pandas`
+5. `pip install beautifulsoup4`
+6. `pip install matplotlib`
 ___
 
 ## Установка Python pip и зависимостей для Linux (Debian/Ubuntu)
@@ -26,9 +27,10 @@ ___
 1. `sudo apt update && sudo apt upgrade -y && sudo apt install python3 -y`
 
 ### Установка зависимостей
-1. `pip3 install jupyterlab && pip3 install notebook && pip3 install pandas && pip3 install beautifulsoup4 && pip3 install matplotlib`
+1. `pip3 install pylint && pip3 install jupyterlab && pip3 install notebook && pip3 install pandas && pip3 install beautifulsoup4 && pip3 install matplotlib`
 
 Либо отдельно:
+- `pip3 install pylint`
 - `pip3 install jupyterlab`
 - `pip3 install notebook`
 - `pip3 install pandas`
