@@ -14,7 +14,7 @@ ___
 ```
 
 ## Установка зависимостей
-1. `pip install jupyter`
+1. `pip install jupyterlab`
 2. `pip install notebook`
 3. `pip install pandas`
 4. `pip install beautifulsoup4`
@@ -26,10 +26,10 @@ ___
 1. `sudo apt update && sudo apt upgrade -y && sudo apt install python3 -y`
 
 ### Установка зависимостей
-1. `pip3 install jupyter && pip3 install notebook && pip3 install pandas && pip3 install beautifulsoup4 && pip3 install matplotlib`
+1. `pip3 install jupyterlab && pip3 install notebook && pip3 install pandas && pip3 install beautifulsoup4 && pip3 install matplotlib`
 
 Либо отдельно:
-- `pip3 install jupyter`
+- `pip3 install jupyterlab`
 - `pip3 install notebook`
 - `pip3 install pandas`
 - `pip3 install beautifulsoup4`
